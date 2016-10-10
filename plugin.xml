@@ -84,7 +84,7 @@
 
 		<source-file src="src/android/libs/pushbots-lib-2.0.13.jar" target-dir="libs/" />
 		
-		<framework src="com.android.support:support-v4:+" />
+		<!--<framework src="com.android.support:support-v4:+" />-->
 	</platform>
 
     <!-- iPhone -->
