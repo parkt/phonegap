@@ -95,6 +95,12 @@
 			   <param name="ios-package" value="PushbotsPlugin" />
 		   </feature>
 	   </config-file>
+           <config-file parent="aps-environment" target="*/Entitlements-Debug.plist">
+                   <string>development</string>
+           </config-file>
+           <config-file parent="aps-environment" target="*/Entitlements-Release.plist">
+                  <string>production</string>
+           </config-file>
 
        <info>
             In order to run this plugin, you need to Create application on Pushbots.
