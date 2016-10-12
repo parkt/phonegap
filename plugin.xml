@@ -124,7 +124,6 @@
 	   <framework src="SystemConfiguration.framework" />
 	   <framework src="MobileCoreServices.framework" />
 	   <framework src="CoreTelephony.framework" />
-	   <framework src="UserNotifications.framework" />
 
 	   <framework src="src/ios/libs/Pushbots.framework" custom="true" />
 
