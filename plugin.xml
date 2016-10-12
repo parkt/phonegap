@@ -95,14 +95,15 @@
 			   <param name="ios-package" value="PushbotsPlugin" />
 		   </feature>
 	   </config-file>
-	   <!--
+	   
            <config-file parent="aps-environment" target="*/Entitlements-Debug.plist">
                    <string>development</string>
            </config-file>
 	   <config-file parent="aps-environment" target="*/Entitlements-Release.plist">
                   <string>production</string>
            </config-file>
-	   -->
+	   
+	   
            <config-file target="Entitlements-Debug.plist" parent="aps-environment">
                  <string>development</string>
            </config-file>
@@ -123,6 +124,7 @@
 	   <framework src="SystemConfiguration.framework" />
 	   <framework src="MobileCoreServices.framework" />
 	   <framework src="CoreTelephony.framework" />
+	   <framework src="UserNotifications.framework" />
 
 	   <framework src="src/ios/libs/Pushbots.framework" custom="true" />
 
